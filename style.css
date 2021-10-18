@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body , html {
+	background-color:ghostwhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+h1, h2 {
+	font-weight: 300;
+	line-height: 1.2;
+	margin: 10px 0;
+}
+
+p {
+	margin: 10px;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.container {
+    color: darkkhaki;
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+}
+.container ul {
+    display: flex;
+	justify-items: flex-end;
+	padding: 15px;
+}
+
+.container a {
+	color: gray;
+	padding: 10px;
+	margin: 0 5px;
+}
+
+.container {
+	color: darkkhaki;
+	height: 100px;
+}
+
+.container a:hover {
+  background-color: mintcream;
+  opacity: 0.5;
+}
+
+.showcase, img {
+ height: 400px;
+ width: 1263PX;
+}
+
+.divide{
+	text-align: center;
+	padding: 30px 30px;
+	color: gray;
+}
+
+.container2 {
+	display: flex;
+}
+.passage img {
+	width: 80%;
+	padding: 10px;
+	margin: 10px;
+	border: solid brown;
+	
+}
+.passage2 img {
+	width: 80%;
+	padding: 10px;
+	margin: 10px;
+	border: solid brown;
+}
+.passage3 img {
+	width: 80%;
+	padding: 10px;
+	margin: 10px;
+	border: solid brown;
+}
+
+.seperate {
+	text-align: center;
+	color: saddlebrown;
+	height: 100px;
+	background-color: darkseagreen;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+
+/** introducing the footer to the equation**/
+.footer {
+	background-color: burlywood;
+	height: 100px;
+	text-align: center;
+	padding-top: 40px;
+}
